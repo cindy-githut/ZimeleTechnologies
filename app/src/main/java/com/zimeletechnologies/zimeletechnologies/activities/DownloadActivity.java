@@ -1,4 +1,4 @@
-package com.zimeletechnologies.zimeletechnologies;
+package com.zimeletechnologies.zimeletechnologies.activities;
 
 import android.app.DownloadManager;
 import android.content.ActivityNotFoundException;
@@ -18,6 +18,9 @@ import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.zimeletechnologies.zimeletechnologies.R;
+
 import java.io.File;
 
 public class DownloadActivity extends AppCompatActivity {

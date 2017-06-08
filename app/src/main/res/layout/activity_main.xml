@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    tools:context="com.zimeletechnologies.zimeletechnologies.MainActivity">
+    tools:context="com.zimeletechnologies.zimeletechnologies.activities.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"

@@ -1,10 +1,12 @@
-package com.zimeletechnologies.zimeletechnologies;
+package com.zimeletechnologies.zimeletechnologies.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.zimeletechnologies.zimeletechnologies.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                startActivity(new Intent(MainActivity.this, FlightInformation.class));
+                startActivity(new Intent(MainActivity.this, FlightInformationActivity.class));
 
             }
         });

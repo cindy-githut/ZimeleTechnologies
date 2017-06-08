@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,21 +21,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegisterActivity"
+            android:name=".activities.RegisterActivity"
             android:label="@string/title_activity_register"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".UserDetails"
+            android:name=".activities.UserDetailsActivity"
             android:label="@string/title_activity_user_details"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".DownloadActivity"
+            android:name=".activities.DownloadActivity"
             android:label="@string/title_activity_user_details"
             android:theme="@style/AppTheme.NoActionBar" />
 
 
         <activity
-            android:name=".FlightInformation"
+            android:name=".activities.FlightInformationActivity"
             android:label="@string/title_activity_flight_information"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>

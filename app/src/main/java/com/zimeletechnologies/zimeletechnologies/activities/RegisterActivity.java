@@ -1,4 +1,4 @@
-package com.zimeletechnologies.zimeletechnologies;
+package com.zimeletechnologies.zimeletechnologies.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,6 +11,9 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+
+import com.zimeletechnologies.zimeletechnologies.R;
+
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -105,7 +108,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                         Date date1 = format.parse(string_dob);
                         DateFormat dateFormat = new SimpleDateFormat("dd MMM yyyy");
 
-                        Intent intent = new Intent(RegisterActivity.this, UserDetails.class);
+                        Intent intent = new Intent(RegisterActivity.this, UserDetailsActivity.class);
                         intent.putExtra("name",name.getText().toString());
                         intent.putExtra("address", address.getText().toString());
                         intent.putExtra("age", age.getText().toString());
