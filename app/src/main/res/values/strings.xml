@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">Zimele Technologies</string>
+    <string name="welcome">Welcome</string>
+
+    <!--Flight information related strings-->
+    <string name="title_activity_plain_information">PlainInformation</string>
+    <string name="title_activity_flight_information">FlightInformation</string>
+    <string name="flight">Flight:</string>
+    <string name="origin">Origin:</string>
+    <string name="destination">Destination:</string>
+    <string name="arrival_scheduled">Arrival Scheduled:</string>
+    <string name="departure_scheduled">Departure Scheduled:</string>
+
+    <!--Registration related strings-->
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="enter_dob">Enter DOB</string>
+    <string name="register">Register</string>
+    <string name="name_error">Name can not be empty</string>
+    <string name="address_error">Address can not be empty</string>
+    <string name="age_error">Age can not be empty</string>
+    <string name="title_activity_user_details">UserDetails</string>
+
+    <!--Download related strings-->
+    <string name="download_pdf">Download PDF</string>
+    <string name="download_image">Download Image</string>
+    <string name="pdf_uri_to_be_downloaded">PDF URI to be downloaded : http://stromcpa.com/Don-Strom-Richest-Man-in-Babylon-chapter-one.pdf</string>
+    <string name="image_url">https://wallpaperbrowse.com/media/images/soccer_stock.jpg</string>
+    <string name="pdf_url">http://stromcpa.com/Don-Strom-Richest-Man-in-Babylon-chapter-one.pdf</string>
+    <string name="image_uri_to_be_downloaded">Image URI to be downloaded : https://wallpaperbrowse.com/media/images/soccer_stock.jpg</string>
+    <string name="download">Download</string>
+    <string name="get_information">Get Information</string>
+
+
+</resources>
